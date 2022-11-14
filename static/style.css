@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #10101a;
+  font-family: "Poppins", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 75rem;
+  margin-inline: auto;
+  z-index: 2;
+}
+.nav__logo {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.nav__menu_items {
+}
+
+.nav__menu_items ul {
+  display: flex;
+  gap: 2.125rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.75rem;
+}
+
+@font-face {
+  font-family: MarkPro;
+  font-weight: 900;
+  src: url("static/MarkPro-Bold.otf") format("opentype");
+}
+.hero {
+  max-width: 75rem;
+  margin-inline: auto;
+}
+
+.hero__text {
+  font-family: poppins;
+  font-weight: 700;
+  font-size: 4.25rem;
+  line-height: 5.25rem;
+  max-width: 46.3125rem;
+}
+
+.hero__text_gradient {
+  background: linear-gradient(
+    99.15deg,
+    #ff00c7 33.37%,
+    rgba(0, 224, 255, 0.49) 99.27%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.cta-button {
+  background: #8f028a;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.flow > * + * {
+  margin-top: 1rem;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  height: 50rem;
+}
+.hero-left {
+  padding-top: 10rem;
+}
+
+.bio-section {
+  padding-top: 20rem;
+  max-width: 75rem;
+  margin-inline: auto;
+}
+
+.bio-section p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
